@@ -1,8 +1,10 @@
 import { combineReducers } from 'redux';
 import NewsData from './NewsData';
 import searchNewsData from './Search';
- const reducer = combineReducers({
+import BookMarks from './Bookmarks';
+const reducer = combineReducers({
     NewsData,
-    searchNewsData
+    searchNewsData,
+    BookMarks
 });
 export default reducer;

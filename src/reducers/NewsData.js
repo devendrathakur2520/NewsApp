@@ -12,7 +12,7 @@ export default function NewsData(state = initialState, action) {
                 ...state,
                 data: action.payload,
             }
-       
+
         default:
             return state;
     }

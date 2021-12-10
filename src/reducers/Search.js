@@ -1,8 +1,8 @@
-import { SEARCH_NEWS,SET_SEARCH } from "../action";
+import { SEARCH_NEWS, SET_SEARCH } from "../action";
 
 const initialState = {
-    search:"",
-    searchdata:[]
+    search: "",
+    searchdata: []
 }
 
 export default function searchNewsData(state = initialState, action) {
@@ -13,7 +13,7 @@ export default function searchNewsData(state = initialState, action) {
                 ...state,
                 search: action.payload,
             }
-            case SET_SEARCH:
+        case SET_SEARCH:
             return {
                 ...state,
                 searchdata: action.payload,
