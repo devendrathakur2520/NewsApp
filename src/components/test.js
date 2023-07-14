@@ -6,6 +6,7 @@ export default function test() {
       Thakur Devendra singh
       I am developer
       thakur sahab
+      Rajput Thakur
     </div>
   )
 }
