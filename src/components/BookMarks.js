@@ -6,7 +6,7 @@ function BookMarks() {
   return (
     <>
       <div>
-        <h1>BookMarks</h1>
+        <h1>Your BookMarks</h1>
         {data.map((item, index) => (
           <ul>
             <li key={index}>{item}</li>
