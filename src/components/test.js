@@ -7,6 +7,7 @@ export default function test() {
       I am developer
       thakur sahab
       Rajput Thakur
+      merge new commit
     </div>
   )
 }
