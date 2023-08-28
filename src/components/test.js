@@ -8,6 +8,7 @@ export default function test() {
       thakur sahab
       Rajput Thakur
       merge new commit
+      rebase commit
     </div>
   )
 }
